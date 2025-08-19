@@ -63,7 +63,7 @@ h1{
 html,
 body {
   scroll-behavior: smooth;
-  scroll-padding-top:4rem;
+  scroll-padding-top:7rem;
 }
 
 body {
@@ -134,7 +134,7 @@ nav {
 /* home css designs start here */
 #home{
   background-color: var(--bg-color);
-  margin:auto;
+  margin:5rem auto 1rem auto;
   padding: 1rem;
   width: 90%;
   text-align: center;
@@ -507,6 +507,7 @@ iframe{
 /* home part design start here */
   #home{
     background-color: rgba(204, 220, 242,0.4);
+    margin:auto;
   }
   .home-box{
     text-align: center;
