@@ -349,13 +349,12 @@ color: var(--highlight-color);
   scroll-snap-align: start;
 }
 .review .review-content{
-  height:15rem;
+  height:10rem;
   overflow-y: scroll;
   background-color: var(--white);
   color:var(--text-light);
   padding:0.5rem;
   border-radius: 0.5rem;
-
 }
 .review:hover{
   background-color: var(--highlight-color);
@@ -373,8 +372,13 @@ color: var(--highlight-color);
   width: 100%;
 }
 .footer-col2 a{
-color:var(--text-light)
+color:var(--text-light);
+padding-top:0.5rem;
 }
+.footer-col2 p{
+  color:var(--text-light);
+  padding-top:0.5rem;
+  }
 .footer-col2 i{
   padding-right:0.4rem;
 }
