@@ -36,13 +36,12 @@
 /* logo design */
 .logo {
   width: 8rem;
-  height: 3rem;
+  height: 4rem;
   object-fit: contain;
   }
 
 a {
   text-decoration: none;
-  transition: 0.3s;
 }
 
 ul {
@@ -113,9 +112,6 @@ nav {
   background-color: var(--highlight-color);
   transition: transform 0.5s;
   z-index: -1;
-}
-a:hover{
-  font-size: 20px;
 }
 
 .nav__links.open {
@@ -353,6 +349,8 @@ color: var(--highlight-color);
   scroll-snap-align: start;
 }
 .review .review-content{
+  height:15rem;
+  overflow-y: scroll;
   background-color: var(--white);
   color:var(--text-light);
   padding:0.5rem;
@@ -373,6 +371,12 @@ color: var(--highlight-color);
   margin-top: 2rem;
   color:var(--text-light);
   width: 100%;
+}
+.footer-col2 a{
+color:var(--text-light)
+}
+.footer-col2 i{
+  padding-right:0.4rem;
 }
 .footer-col1 img{
   margin-top:2rem;
