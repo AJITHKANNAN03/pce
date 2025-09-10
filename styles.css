@@ -349,7 +349,7 @@ color: var(--highlight-color);
   scroll-snap-align: start;
 }
 .review .review-content{
-  height:10rem;
+  height:5rem;
   overflow-y: scroll;
   background-color: var(--white);
   color:var(--text-light);
@@ -359,8 +359,11 @@ color: var(--highlight-color);
 .review:hover{
   background-color: var(--highlight-color);
 }
-.review:hover .reviewer-name,.review:hover .reviewer-des{
+.review:hover .reviewer-name,.review:hover{
   color:var(--white)
+}
+.reviewer-name{
+  padding-top:1rem;
 }
 /* review end here */
 
